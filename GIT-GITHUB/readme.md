@@ -25,24 +25,31 @@ Exemplos:
 
 ## Principais comandos git
 
+### NOME
+
 ```
 git init
 ```
+### RESUMO
+
 * Este comando cria um repositório Git vazio, basicamente uma pasta oculta ".git", responsável pelo gerenciamento dos repositórios e arquivos contidos na pasta criada no computador onde o comando foi executado
 
 * Comando sendo executado<p>
 <img src="./img/git_init.png">
 
-* Imagem da pasta .git no computador<p>
+* Imagem da pasta oculta ".git" no computador<p>
 <img src="./img/repo_git.png">
 
 <hr>
 
 ### A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
 
+### NOME
 ```
 git config -l
 ```
+
+### RESUMO
 * Este comando "git config" obtem e define opções globais ou do repositório
 
 ```
@@ -57,9 +64,12 @@ git config --global user.name "DIGITE_SEU_NOME_AQUI"
 
 <hr>
 
+### <u>NOME</u>
 ```
 git clone
 ```
+
+### <u>RESUMO</u>
 * O comando é executado junto com a URL do repositório do gitHub em uma pasta criada no computador
 
 * Imagem do comando "git clone" sendo executado
