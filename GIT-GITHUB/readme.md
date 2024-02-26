@@ -82,14 +82,12 @@ Este comando cria um repositório Git vazio, basicamente uma pasta oculta ".git"
 git config -l
 ```
 
-A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
-
+### Descrição
+* A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
+* O config é um comando inicial para vincular o trabalho no repositório local com sua conta no github. Assim, é configurado com o nome e com o e-mail. Este comando "git config" obtem e define opções globais ou do repositório
 
 ### Exemplo
 <img src="./img/git_config.png">
-
-### Descrição
-* O config é um comando inicial para vincular o trabalho no repositório local com sua conta no github. Assim, é configurado com o nome e com o e-mail. Este comando "git config" obtem e define opções globais ou do repositório
 
 ### Opções
 
@@ -110,7 +108,8 @@ git clone
 ```
 
 ### Descrição
-* O comando é executado junto com a URL do repositório do gitHub em uma pasta criada no computador
+* A partir dele, você clona um código de um repositório para a sua máquina para então começar a trabalhar nele. Pode ser um projeto de uma pessoa da escola, um projeto da faculdade ou até mesmo uma aplicação open-source para a qual você julgou interessante colaborar.
+* O comando é executado junto com a URL do repositório do gitHub, em uma pasta criada no computador
 
 ### Exemplo
 <img src="./img/git_clone.png">
@@ -121,7 +120,7 @@ git add .
 ```
 
 ### Descrição
-* Este comando é utilizado para adicionar novos arquivos ou alterações que realizamos em nosso repositório local
+* Com essa palavra-chave, nós preparamos arquivos para o próximo “commit”, ou seja, para subir para o repositório na web. É possível adicionar um único arquivo ou todos os arquivos modificados de uma única vez
 
 ### Exemplo
 <img src="./img/git_add.png">
