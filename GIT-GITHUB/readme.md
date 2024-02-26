@@ -49,6 +49,8 @@ git init
 git config -l
 ```
 
+<img src="./img/git_config.png">
+
 ### RESUMO
 * Este comando "git config" obtem e define opções globais ou do repositório
 
