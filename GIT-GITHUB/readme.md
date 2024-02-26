@@ -48,43 +48,50 @@ Exemplos:
 GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
 
 
-## Principais comandos git
+## Principais comandos git 🎯
 
-### NOME
+- git init
+- git config
+- git clone
+- git add
+- git commit
+- git push
+- git branch
+- git merge
+- git checkout
+- git pull
 
+## Comando: init
 ```
 git init
 ```
-### RESUMO
 
-* Este comando cria um repositório Git vazio, basicamente uma pasta oculta ".git", responsável pelo gerenciamento dos repositórios e arquivos contidos na pasta criada no computador onde o comando foi executado
+Este comando cria um repositório Git vazio, basicamente uma pasta oculta ".git", responsável pelo gerenciamento dos repositórios e arquivos contidos na pasta criada no computador onde o comando foi executado
 
 
-### EXEMPLOS
+### Exemplos
 * Comando sendo executado<p>
 <img src="./img/git_init.png">
 
 * Imagem da pasta oculta ".git" no computador<p>
 <img src="./img/repo_git.png">
 
+## Comando: config
 
-
-## Configuração
-
-A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
-
-## Nome
 ```
 git config -l
 ```
 
-### EXEMPLO
+A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
+
+
+### Exemplo
 <img src="./img/git_config.png">
 
-### DESCRIÇÃO
+### Descrição
 * O config é um comando inicial para vincular o trabalho no repositório local com sua conta no github. Assim, é configurado com o nome e com o e-mail. Este comando "git config" obtem e define opções globais ou do repositório
 
-### OPÇÕES
+### Opções
 
 ```
 git config --global user.name "DIGITE_SEU_NOME_AQUI"
@@ -96,129 +103,115 @@ git config --global user.name "DIGITE_SEU_NOME_AQUI"
 ```
 * Altere o campo 'DIGITE_SEU_EMAIL_AQUI' e coloque o seu email do gitHub
 
-<hr>
 
-### NOME
+## Comando: clone
 ```
 git clone
 ```
 
-### DESCRIÇÃO
+### Descrição
 * O comando é executado junto com a URL do repositório do gitHub em uma pasta criada no computador
 
-### EXEMPLO
+### Exemplo
 <img src="./img/git_clone.png">
 
-<hr>
-
-## Nome
+## Comando: add
 ```
 git add .
 ```
 
-### DESCRIÇÃO
+### Descrição
 * Este comando é utilizado para adicionar novos arquivos ou alterações que realizamos em nosso repositório local
 
-### EXEMPLO
+### Exemplo
 <img src="./img/git_add.png">
 
-<hr>
 
-### NOME
+## Comando: commit
 ```
 git commit -m "mensagem"
 ```
 
-### DESCRIÇÃO
+### Descrição
 
 * Salva as alterações e leva as mudanças de um ambiente local para o repositório no git, permitindo ainda a inserção de uma mensagem descritiva. Assim, a cada mudança ou finalização de uma tarefa, a pessoa desenvolvedora pode enviar seus feitos e deixar claro para as outras pessoas o que ela fez.
 
-### OPÇÕES
+### Opções
 
 * <b>-m (message):</b> atributo do comando que representa que estamos enviando uma mensagem
 
 * <b>"mensagem":</b> descrever um breve contexto sobre as ações realizadas no código, entre aspas
 
-### EXEMPLO
+### Exemplo
 <img src="./img/git_commit.png">
 
 <hr>
 
-### NOME
+### Comando: push
 ```
 git push -u origin main
 ```
 
-### DESCRIÇÃO
+### Descrição
 * O push serve para subir as alterações locais para um certo repositório remoto. Ele entrega todos os commits e a mensagem
 
-### OPÇÕES
+### Opções
 
 * <b>-u (user):</b> atributo do comando que representa o usuario que configuramos
 * <b>origin:</b> nome do repositório remoto
 * <b>main:</b> nome da branch
 
 
-### EXEMPLO
+### Exemplo
 <img src="./img/git_commit.png">
 
-<hr>
-
-### NOME
+## Comando: branch
 ```
 git branch cadastrar-usuario
 ```
 
-### DESCRIÇÃO
+### Descrição
 * Para trabalhar em equipe, você pode criar diferentes branches (ramificações), e o git administra todas elas em paralelo para evitar problemas de versão. Então, posteriormente, com um comando que veremos, é possível unificar as ramificações.
 
-### OPÇÕES
+### Opções
 
-* <b>cadastrar-usuario:</b> exemplo para nomear nova ramificação do repositório
+* <b>cadastrar-usuario:</b> exemplo para Nomear nova ramificação do repositório
 
-<hr>
-
-### NOME
+## Comando: merge
 ```
 git merge main
 ```
 
-### DESCRIÇÃO
+### Descrição
 * Depois de programar em uma branch, você tem que fazer uma conjunção dela com outras para de fato subir as alterações. É só colocar o nome da branch que desejamos mesclar com a principal depois do termo merge
 
-### OPÇÕES
+### Opções
 
 * <b>main:</b> nome da branch que desejamos unificar a branch criada
 
-<hr>
-
-### NOME
+## Comando: checkout
 ```
 git checkout cadastrar-usuario
 ```
 
-### DESCRIÇÃO
+### Descrição
 * O objetivo dele é fazer a pessoa programadora mudar de branch. Você pode usar o “git branch” para saber quais existem e depois trocar de uma para outra. 
 
-### OPÇÕES
+### Opções
 
 * <b>cadastrar-usuario:</b> nome da branch que desejamos acessar
 
-<hr>
-
-### NOME
+## Comando: pull
 ```
 git pull origin main
 ```
 
-### DESCRIÇÃO
+### Descrição
 * Antes de começar a programar em algum repositório, é bom também executar um “pull”. Esse comando traz para a sua máquina (repositório local) todas as mudanças que foram realizadas. Ou seja, é uma forma de atualizar a sua versão da aplicação com o que foi alterado remotamente 
 
-### OPÇÕES
+### Opções
 
 * <b>origin:</b> nome do repositório remoto
 * <b>main:</b> nome da branch
-
-<hr>
 
 
