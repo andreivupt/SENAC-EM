@@ -1,4 +1,10 @@
-# 📝 Gerenciamento de código com git e gitHub
+<h2>
+ 📝 Gerenciamento de código com git e gitHub
+</h2>
+
+<h4 align="center">
+  Documentação inicial 
+</h4>
 
 <h3> 
 O que é git ? <img src="./icons/Git.svg" width="20"> 
