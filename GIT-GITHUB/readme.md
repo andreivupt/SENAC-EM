@@ -2,13 +2,12 @@
 
 ## O que é git ?
 
-* Git é um sistema de controle de versão desenvolvido por Linus Torvalds (o criador do Linux). Isso significa que qualquer desenvolvedor numa equipe pode gerenciar o repositório local (código que está no nosso computador) e seu histórico de mudanças usando comandos git pelo terminal
+* Git, basicamente são comandos utilizados pelo terminal, onde gerenciamos o histórico de mudanças usando um sistema de controle de versão desenvolvido por Linus Torvalds (o criador do Linux). Isso significa que qualquer desenvolvedor numa equipe pode gerenciar o repositório local (código que está no nosso computador) e o repositório remoto (pasta do nosso projeto que está no gitHub)
 
 Exemplos:
 * git add .
 * git status
 * git push origin main
-
 
 ## O que é terminal ?
 
@@ -20,4 +19,18 @@ Exemplos:
 * GitBash
 
 ## O que é gitHub ?
-* GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
+* GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
+
+<hr><br>
+
+## Exemplo prático de execução dos comandos
+
+<img src="./img/comandos_git.png">
+
+<br>
+
+## Principais comandos git
+
+> git init
+* Este comando cria um repositório Git vazio, basicamente uma pasta .git
+
