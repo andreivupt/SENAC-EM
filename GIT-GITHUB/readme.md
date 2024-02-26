@@ -2,12 +2,21 @@
  📝 Gerenciamento de código com git e gitHub
 </h2>
 
-<h4 align="center">
-  Documentação inicial 
-</h4>
+Para facilitar o estudo e a utilização dos conceitos utilizados em aula, está documentação estará disponível para futuras consultas durante a execução em nossos projetos de desenvolvimento
+
+<h3>
+Docs
+</h3>
+<hr>
+
+- O que é git ?
+- O que é terminal ?
+- O que é gitHub ?
+- Principais comandos git
 
 <h3> 
-O que é git ? <img src="./icons/Git.svg" width="20"> 
+  O que é git ?
+  <img src="./icons/Git.svg" width="20"> 
 </h3>
 <hr>
 
