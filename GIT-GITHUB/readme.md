@@ -34,5 +34,17 @@ Exemplos:
 ```
 git init
 ```
-* Este comando cria um repositório Git vazio, basicamente uma pasta .git
+* Este comando cria um repositório Git vazio, basicamente uma pasta oculta .git, responsável pelo gerenciamento dos repositórios e arquivos contidos no local onde o comando foi executado
+
+* Imagem da pasta .git no computador<p>
+<img src="./img/repo_git.png">
+
+<hr>
+
+```
+git clone
+```
+* Clona um repositório remoto do gitHub em uma pasta criada no computador
+
+* 
 
