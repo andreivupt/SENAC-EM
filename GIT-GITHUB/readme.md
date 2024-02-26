@@ -55,7 +55,9 @@ git config -l
 <img src="./img/git_config.png">
 
 ### DESCRIÇÃO
-* Este comando "git config" obtem e define opções globais ou do repositório
+* O config é um comando inicial para vincular o trabalho no repositório local com sua conta no github. Assim, é configurado com o nome e com o e-mail. Este comando "git config" obtem e define opções globais ou do repositório
+
+### OPÇÕES
 
 ```
 git config --global user.name "DIGITE_SEU_NOME_AQUI"
@@ -69,7 +71,7 @@ git config --global user.name "DIGITE_SEU_NOME_AQUI"
 
 <hr>
 
-### <u>NOME</u>
+### NOME
 ```
 git clone
 ```
