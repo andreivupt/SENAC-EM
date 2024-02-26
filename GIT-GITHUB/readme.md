@@ -21,13 +21,7 @@ Exemplos:
 ## O que é gitHub ?
 * GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
 
-<hr><br>
-
-## Exemplo prático de execução dos comandos
-
-<img src="./img/comandos_git.png">
-
-<br>
+<hr>
 
 ## Principais comandos git
 
@@ -47,18 +41,19 @@ git init
 ### A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
 
 ```
+git config -l
+```
+* Este comando "git config" obtem e define opções globais ou do repositório
+
+```
 git config --global user.name "DIGITE_SEU_NOME_AQUI"
 ```
+* Altere o campo 'DIGITE_SEU_NOME_AQUI' e coloque o seu nome
 
 ```
  git config --global user.email "DIGITE_SEU_EMAIL_AQUI"
 ```
-
-* Este comando "git config" obtem e define opções globais ou do repositório
-* Informar o seu nome e email
-* Altere o campo 'DIGITE_SEU_NOME_AQUI' e coloque o seu nome
 * Altere o campo 'DIGITE_SEU_EMAIL_AQUI' e coloque o seu email do gitHub
-
 
 <hr>
 
