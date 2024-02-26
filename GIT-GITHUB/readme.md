@@ -1,27 +1,37 @@
-# Gerenciamento de código com git e gitHub
+# 📝 Gerenciamento de código com git e gitHub
 
-## O que é git ?
+<h3> 
+O que é git ? <img src="./icons/Git.svg" width="20"> 
+</h3>
+<hr>
 
-* Git, basicamente são comandos utilizados pelo terminal, onde gerenciamos o histórico de mudanças usando um sistema de controle de versão desenvolvido por Linus Torvalds (o criador do Linux). Isso significa que qualquer desenvolvedor numa equipe pode gerenciar o repositório local (código que está no nosso computador) e o repositório remoto (pasta do nosso projeto que está no gitHub)
+Git, basicamente são comandos utilizados pelo terminal, onde gerenciamos o histórico de mudanças usando um sistema de controle de versão desenvolvido por Linus Torvalds (o criador do Linux). Isso significa que qualquer desenvolvedor numa equipe pode gerenciar o repositório local (código que está no nosso computador) e o repositório remoto (pasta do nosso projeto que está no gitHub)
 
 Exemplos:
 * git add .
 * git status
 * git push origin main
 
-## O que é terminal ?
+<h3>
+ O que é terminal ? 💻
+</h3>
+<hr>
 
-* É uma famosa tela preta, conhecida pelos programadores, na qual você digita comandos para dar instruções para um computador e visualizar informações dessa máquina. Ou seja, ele serve para você executar tarefas no computador sem utilizar a interface gráfica, com pastinhas e ícones, ou o bom e velho mouse
+É uma famosa tela preta, conhecida pelos programadores, na qual você digita comandos para dar instruções para um computador e visualizar informações dessa máquina. Ou seja, ele serve para você executar tarefas no computador sem utilizar a interface gráfica, com pastinhas e ícones, ou o bom e velho mouse
 
 Exemplos:
 * CMD
 * PowerShell
 * GitBash
 
-## O que é gitHub ?
-* GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
-
+<h3> 
+  O que é gitHub ? 
+  <img src="./icons/Github-Dark.svg" width="20">
+</h3>
 <hr>
+
+GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
+
 
 ## Principais comandos git
 
@@ -42,11 +52,13 @@ git init
 * Imagem da pasta oculta ".git" no computador<p>
 <img src="./img/repo_git.png">
 
-<hr>
 
-### A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
 
-### NOME
+## Configuração
+
+A primeira coisa que você deve fazer após instalar o Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar
+
+## Nome
 ```
 git config -l
 ```
@@ -84,7 +96,7 @@ git clone
 
 <hr>
 
-### NOME
+## Nome
 ```
 git add .
 ```
