@@ -31,6 +31,8 @@ Exemplos:
 
 ## Principais comandos git
 
-> git init
+```
+git init
+```
 * Este comando cria um repositório Git vazio, basicamente uma pasta .git
 
