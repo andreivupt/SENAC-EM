@@ -5,14 +5,14 @@
 Para facilitar o estudo e a utilização dos conceitos utilizados em aula, está documentação estará disponível para futuras consultas durante a execução em nossos projetos de desenvolvimento
 
 <h3>
-Docs
+  📌 Índice
 </h3>
 <hr>
 
-- O que é git ?
-- O que é terminal ?
-- O que é gitHub ?
-- Principais comandos git
+- git
+- terminal
+- gitHub
+- comandos git
 
 <h3> 
   O que é git ?
@@ -47,8 +47,10 @@ Exemplos:
 
 GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
 
-
-## Principais comandos git 🎯
+<h3>
+  Principais comandos git 🎯
+</h3>
+<hr>
 
 - git init
 - git config
@@ -214,3 +216,10 @@ git pull origin main
 * <b>main:</b> nome da branch
 
 
+<h2>
+ 📜 Documentações
+</h2>
+
+- <a href="https://git-scm.com/docs">comandos git</a>
+- <a href="https://www.atlassian.com/br/git/tutorials/git-bash">terminal gitBash</a>
+- <a href="https://github.com/">gitHub</a>
