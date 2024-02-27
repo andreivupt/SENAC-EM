@@ -5,7 +5,7 @@
 Para facilitar o estudo e a utilização dos conceitos utilizados em aula, está documentação estará disponível para futuras consultas durante a execução em nossos projetos de desenvolvimento
 
 <h3>
-  📌 Tecnologias / Ferramentas
+  🛠️ Tecnologias / Ferramentas
 </h3>
 <hr>
 
