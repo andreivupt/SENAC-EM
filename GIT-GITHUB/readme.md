@@ -17,13 +17,13 @@ Para facilitar o estudo e a utilização dos conceitos utilizados em aula, está
 </h3>
 <hr>
 
-1. Git
-2. Terminal
-3. GitHub
-4. Comandos git
-5. Comandos terminal
+1. [Git](#git)
+2. [Terminal](#terminal)
+3. [GitHub](#github)
+4. [Comandos git](#comm-git)
+5. [Comandos terminal](#comm-terminal)
 
-<h3> 
+<h3 id="git"> 
   1. O que é git ?
   <img src="./icons/Git.svg" width="20"> 
 </h3>
@@ -36,7 +36,7 @@ Exemplos:
 * git status
 * git push origin main
 
-<h3>
+<h3 id="terminal">
  2. O que é terminal ? 💻
 </h3>
 <hr>
@@ -48,7 +48,7 @@ Exemplos:
 * PowerShell
 * GitBash
 
-<h3> 
+<h3 id="github"> 
   3. O que é gitHub ? 
   <img src="./icons/Github-Dark.svg" width="20">
 </h3>
@@ -56,7 +56,7 @@ Exemplos:
 
 GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
 
-<h3>
+<h3 id="comm-git">
   4. Principais comandos git 🎯
 </h3>
 <hr>
@@ -219,12 +219,12 @@ git pull origin main
 ### Descrição
 * Antes de começar a programar em algum repositório, é bom também executar um “pull”. Esse comando traz para a sua máquina (repositório local) todas as mudanças que foram realizadas. Ou seja, é uma forma de atualizar a sua versão da aplicação com o que foi alterado remotamente 
 
-### Opções
+#### Opções
 
 * <b>origin:</b> nome do repositório remoto
 * <b>main:</b> nome da branch
 
-<h3>
+<h3 id="comm-terminal">
   5. Principais comandos de terminal 
   <img src="./img/terminal.png" width="20">
 </h3>
