@@ -5,17 +5,26 @@
 Para facilitar o estudo e a utilização dos conceitos utilizados em aula, está documentação estará disponível para futuras consultas durante a execução em nossos projetos de desenvolvimento
 
 <h3>
+  📌 Tecnologias / Ferramentas
+</h3>
+<hr>
+
+- gitBash
+- gitHub
+
+<h3>
   📌 Índice
 </h3>
 <hr>
 
-- git
-- terminal
-- gitHub
-- comandos git
+1. Git
+2. Terminal
+3. GitHub
+4. Comandos git
+5. Comandos terminal
 
 <h3> 
-  O que é git ?
+  1. O que é git ?
   <img src="./icons/Git.svg" width="20"> 
 </h3>
 <hr>
@@ -28,7 +37,7 @@ Exemplos:
 * git push origin main
 
 <h3>
- O que é terminal ? 💻
+ 2. O que é terminal ? 💻
 </h3>
 <hr>
 
@@ -40,7 +49,7 @@ Exemplos:
 * GitBash
 
 <h3> 
-  O que é gitHub ? 
+  3. O que é gitHub ? 
   <img src="./icons/Github-Dark.svg" width="20">
 </h3>
 <hr>
@@ -48,7 +57,7 @@ Exemplos:
 GitHub é uma espécie de "rede social para programadores". Sendo um repositório remoto (código que está na nuvem) utilizado com um serviço de publicação e compartilhamento de códigos de programação. Lançada em 2008, a plataforma é usada mundialmente e é, desde 2018, de propriedade da Microsoft
 
 <h3>
-  Principais comandos git 🎯
+  4. Principais comandos git 🎯
 </h3>
 <hr>
 
@@ -214,6 +223,63 @@ git pull origin main
 
 * <b>origin:</b> nome do repositório remoto
 * <b>main:</b> nome da branch
+
+<h3>
+  5. Principais comandos de terminal 
+  <img src="./img/terminal.png" width="20">
+</h3>
+<hr>
+
+### Listar arquivos e pastas existentes
+```
+ls
+```
+
+### Limpar tela do terminal
+```
+Ctrl + L
+```
+
+### Abrir VSCode com pasta atual
+```
+code .
+```
+
+### Criar nova pasta
+```
+mkdir NOME_DA_PASTA
+```
+
+### Acessar pasta
+```
+cd NOME_DA_PASTA
+```
+
+### Voltar uma pasta anterior
+```
+cd ..
+```
+
+### Criar novo arquivo
+```
+touch NOME_DO_ARQUIVO
+```
+
+### Criar e editar novo arquivo
+```
+nano NOME_DO_ARQUIVO
+```
+- Ctrl + o: Salvar o arquivo
+- Enter: Confirmar
+- Ctrl + x: Fechar o arquivo
+
+### Remover pasta e arquivos internos
+```
+rm -rf NOME_DA_PASTA
+```
+- rm (remove): comando utilizado para apagar arquivo
+- -r (recursive): apaga pastas e subpastas de forma recursiva
+- -f (force): não pergunta confirmações
 
 
 <h2>
