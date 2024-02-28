@@ -326,17 +326,8 @@ const caneta = {
 }
 ```
 
-<h3>
-  Declaração try...catch
-</h3>
-<hr>
+<h2>
+ 📜 Documentações
+</h2>
 
-<h3>
-  Declaração try...catch
-</h3>
-<hr>
-
-<h3>
-  Declaração try...catch
-</h3>
-<hr>
+- <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
